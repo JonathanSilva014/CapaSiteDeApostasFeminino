@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.center{
+    max-width: 1100px;
+    padding:0 2%;
+    margin:0 auto;
+}
+
+.clear{clear:both;}
+
+header{
+    background:#DDA0DD;
+    padding: 8px 0;
+}
+
+.logo{
+    float: left;
+    color: white;
+
+}
+
+.logo h2{
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.logo h3{
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+form.form-login{
+    float: right;
+}
+
+.form-login .form-element{
+    display: inline-block;
+}
+
+.form-element p{
+    color: white;
+    font-size: 15px;
+    margin-right: 19px;
+    margin-top: 5px;
+}
+
+.form-element input[type=email],
+.form-element input[type=password]{
+    margin-top: 5px;
+    border: 0;
+    height: 25px;
+    padding-left: 8px;
+}
+
+.form-element input[type=submit]{
+    cursor: pointer;
+    border: 0;
+    background: #5F9EA0;
+    color: white;
+    padding: 3px 3px;
+    border-radius: 5px;
+}
+
+.form-element input[type=submit]:hover{
+    background: #66CDAA;
+}
+
+section.main{
+    background:linear-gradient(#C71585, #FFB6C1, white);
+    padding: 40px 0;
+}
+
+.img-pessoas{
+    float:left ;
+    width: 60%;
+}
+
+.img-pessoas img{
+    max-width: 80%;
+}
+
+.abrir-conta{
+    width: 40%;
+    float: left;
+}
+
+.abrir-conta h2{
+    font-family: sans-serif;
+    color:black;
+    font-size: 40px;
+}
+
+.abrir-conta h3{
+    font-size: 21px;
+    color:rgb(30,30,30);
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+form.criar-conta{
+    margin-top: 10px;
+    float: left;
+    width: 50%;
+    position: relative;
+    left: 580px;
+    bottom: 380px;
+    
+}
+
+.W50{
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+
+.W100{
+    padding: 0 5px;
+    width: 100%;
+    float: left;
+}
+
+form.criar-conta input{
+    width: 100%;
+    margin-top: 8px;
+    float: left;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password]{
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 3px solid #5F9EA0;
+    border-radius: 15px;
+}
+
+form.criar-conta input[type=submit]{
+    height: 40px;
+    background: linear-gradient(#5F9EA0, #FF00FF);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form .W100 h2{
+    margin-top: 10px;
+    color: #FF1493;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+form select.nascimento{
+    float: left;
+
+}
+
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+
+}
+
